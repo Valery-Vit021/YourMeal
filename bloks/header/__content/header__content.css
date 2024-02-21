@@ -1,0 +1,20 @@
+.header__content{
+   display: grid;
+   margin: 24px 0 63px;
+   max-width: 784px;
+   grid-template-areas: 
+   'img title'
+   'img text'
+   'img .';
+}
+
+@media screen and (max-width: 320px) {
+   .header__content{
+      grid-template-areas: 
+      'title'
+      'text'
+      'img';
+      margin: 24px 0 0;
+      max-width: 352px;
+   }
+}

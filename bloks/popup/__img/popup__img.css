@@ -1,0 +1,23 @@
+.popup__img{
+   width: 276px;
+   min-height: 220px;
+   margin: 0 16px 40px 0;
+   grid-area: img;
+   border-radius: 16px;
+}
+
+@media screen and (max-width: 768px) {
+   .popup__img{
+      width: 226px;
+      min-height: 180px;
+      margin: 0 8px 24px 0;
+   }   
+}
+
+@media screen and (max-width: 320px) {
+   .popup__img{
+      width: 100%;
+      min-height: 232px;
+      margin: 0 0 16px 0;
+   }
+}

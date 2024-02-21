@@ -1,0 +1,26 @@
+.btn-basket{
+   display: flex;
+   width: 145px;
+   height: 48px;
+   background-color: white;
+   border-radius: 12px;
+   padding: 16px 10px;
+   box-sizing: border-box;
+   visibility: hidden;
+   justify-content: space-between;
+   position: absolute;
+   top: 100px;
+}
+
+@media screen and (max-width: 768px) {
+   .btn-basket{
+      visibility: visible;
+   }
+}
+
+@media screen and (max-width: 320px) {
+   .btn-basket{
+      width: 100%;
+      top: 90px;
+   }
+}

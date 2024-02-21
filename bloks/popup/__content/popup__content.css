@@ -1,0 +1,29 @@
+.popup__content{
+   margin: 24px 0 0;
+   display: grid;
+   max-width: 100%;
+   grid-template-areas: 
+   'img text text'
+   'img components .'
+   'img weight .'
+   'submit button price';
+}
+
+@media screen and (max-width: 768px) {
+   .popup__content{
+      margin: 16px 0 0;
+   }   
+}
+
+@media screen and (max-width: 320px) {
+   .popup__content{
+      grid-template-areas: 
+      'img img'
+      'text text'
+      'components .'
+      'weight .'
+      'submit button'
+      '. price';
+      margin: 12px 0 0;
+   }
+}

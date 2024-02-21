@@ -1,0 +1,12 @@
+.popup__input_radio-label{
+   line-height: 16px;
+   display: inline-flex;
+   align-items: center;
+}
+
+@media screen and (max-width: 320px){
+   .popup__input_radio-label{
+      line-height: 14px;
+      font-size: 10px;
+   }
+}

@@ -1,0 +1,19 @@
+.basket__btn-submit{
+   min-width: 100%;
+   min-height: 40px;
+   color: white;
+   background-color: #FF7020;
+   border: none;
+   border-radius: 12px;
+   font-family: Nunito;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+   .basket__btn-submit{
+      min-height: 30px;
+      font-size: 12px;
+   }
+}

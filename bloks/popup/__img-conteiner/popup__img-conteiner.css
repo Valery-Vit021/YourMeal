@@ -1,0 +1,15 @@
+.popup__img-conteiner{
+   background-color: #FFAB08;
+   min-width: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+@media screen and (max-width: 320px) {
+   .popup__img-conteiner{
+      visibility: hidden;
+      position: absolute;
+      z-index: -1;
+   }
+}

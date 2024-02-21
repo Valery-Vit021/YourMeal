@@ -1,0 +1,5 @@
+.popup__body-delivery{
+   flex-direction: row;
+   padding: 0;
+   overflow: hidden;
+}

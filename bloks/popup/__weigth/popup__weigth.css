@@ -1,0 +1,19 @@
+.popup__weigth{
+   color: #B1B1B1;
+   margin: 2px 0 56px;
+   font-size: 12px;
+   grid-area: weight;
+}
+
+@media screen and (max-width: 768px) {
+   .popup__weigth{
+      font-size: 10px;
+      margin: 2px 0 0;
+   }   
+}
+
+@media screen and (max-width: 320px) {
+   .popup__weigth{
+      margin: 2px 0 98px;
+   }
+}

@@ -1,0 +1,13 @@
+.basket__btn-close{
+   font-size: 10px;
+   font-family: Nunito;
+   line-height: 14px;
+   color: #B1B1B1;
+   border: none;
+   background-color: transparent;
+   cursor: pointer;
+   padding: 0;
+   position: absolute;
+   right: 0;
+   top: 72px;
+}

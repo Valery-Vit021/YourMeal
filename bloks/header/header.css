@@ -1,0 +1,19 @@
+.header{
+   max-width: 100%;
+   background-image: url(../../images/bk-header.svg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: bottom;
+   display: flex;
+   flex-direction: column;
+   min-height: 466px;
+   align-items: center;
+   padding-top: 24px;
+   box-sizing: border-box;
+}
+@media screen and (max-width: 768px) {
+   .header{
+      min-height: 349px;
+      background-image: url(../../images/bg-header_320.svg);
+   }
+}

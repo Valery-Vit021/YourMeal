@@ -1,0 +1,27 @@
+.popup__input_radio{
+   position: absolute;
+   z-index: -1;
+   opacity: 0;
+}
+
+.popup__input_radio+label::before{
+   content: "";
+   display: inline-block;
+   width: 12px;
+   height: 12px;
+   flex-shrink: 0;
+   flex-grow: 0;
+   border: 1px solid #F2F2F3;
+   border-radius: 50%;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: 50% 50%;
+   cursor: pointer;
+   margin-right: 8px;
+}
+
+.popup__input_radio:checked+label::before{
+   background-color: white;
+   border-color: #F2F2F3;
+   background-image: url(../../../images/Ellipse\ 13.svg);
+}

@@ -1,0 +1,11 @@
+.basket__delivery-text{
+   margin: 4px 0 0 8px;
+   font-size: 12px;
+   line-height: 16px;
+}
+
+@media screen and (max-width: 768px) {
+   .basket__delivery-text{
+      font-size: 10px;
+   }
+}

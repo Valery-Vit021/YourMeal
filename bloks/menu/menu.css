@@ -1,0 +1,18 @@
+.menu{
+   display: flex;
+   max-width: 100%;
+   margin: 40px 0 0;
+}
+
+@media screen and (max-width: 1024px) {
+   .menu{
+      overflow: scroll;
+      scrollbar-width:none;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .menu{
+      margin: 30px 0 0;
+   }
+}

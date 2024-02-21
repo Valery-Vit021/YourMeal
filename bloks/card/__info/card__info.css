@@ -1,0 +1,11 @@
+.card__info{
+   max-width: 100%;
+   margin: 16px 0 0;
+   font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+   .card__info{
+      margin: 10px 0 0;
+   }   
+}

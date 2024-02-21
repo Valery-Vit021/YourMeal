@@ -1,0 +1,12 @@
+.product-card__info{
+   max-width: 100%;
+   margin:0 31px 0 6px;
+   display: flex;
+   flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+   .product-card__info{
+      margin: 0 53px 0 6px;
+   }
+}

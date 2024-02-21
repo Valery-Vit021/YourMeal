@@ -1,0 +1,13 @@
+.basket__check{
+   display: flex;
+   align-items: center;
+   background-color: #F2F2F3;
+   border-radius: 6px;
+   padding: 2px 16px;
+   box-sizing: border-box;
+}
+@media screen and (max-width: 768px) {
+   .basket__check{
+      padding: 1px 13px;
+   }
+}

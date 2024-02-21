@@ -1,0 +1,7 @@
+.basket__header{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   padding-bottom: 14px;
+   align-items: center;
+}

@@ -1,0 +1,9 @@
+.basket__total-number{
+   margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+   .basket__total-number{
+      font-size: 12px;
+   }
+}

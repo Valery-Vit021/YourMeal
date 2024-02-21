@@ -1,0 +1,23 @@
+.header__title{
+   color: white;
+   font-size: 50px;
+   font-weight: 800;
+   line-height: 120%;
+   margin: 46px 0 0 0;
+   grid-area: title;
+}
+
+@media screen and (max-width: 768px) {
+ .header__title{
+   font-size: 36px;
+   margin: 27px 0 0 0;
+ }  
+}
+
+@media screen and (max-width: 320px) {
+  .header__title{
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+  }
+}

@@ -1,0 +1,5 @@
+.button__number{
+   min-width: calc(100% - 22px*2);
+   padding: 0;
+   margin: 0;
+}

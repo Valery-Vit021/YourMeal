@@ -1,0 +1,21 @@
+.menu__item{
+   display: flex;
+   background-color: white;
+   border-radius: 50px;
+   padding: 8px 14px;
+   list-style: none;
+   align-items: center;
+   white-space: nowrap;
+}
+
+.menu__item:hover{
+   background-color: #FFAB08;
+}
+
+@media screen and (max-width: 768px) {
+   .menu__item{
+      font-size: 12px;
+      line-height: 16px;
+      padding: 3px 8px;
+   }   
+}

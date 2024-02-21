@@ -1,0 +1,22 @@
+.header__img{
+   width: 326px;
+   height: 326px;
+   margin: 0 21px 0 0;
+   grid-area: img;
+}
+
+@media screen and (max-width: 768px) {
+   .header__img{
+      width: 227px;
+      height: 227px;
+      margin: 0 10px 0 0;
+   }
+}
+
+@media screen and (max-width: 320px) {
+   .header__img{
+      width: 227px;
+      height: 229px;
+      margin: 19px auto 30px;
+   }
+}

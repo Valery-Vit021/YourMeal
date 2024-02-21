@@ -1,0 +1,10 @@
+.footer__phone{
+   display: flex;
+   margin-top: 24px;
+}
+
+@media screen and (max-width: 768px) {
+   .footer__phone{
+      margin-top: 8px;
+   }   
+}

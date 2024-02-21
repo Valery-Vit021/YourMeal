@@ -1,0 +1,5 @@
+.popup__info-delivery{
+   display: grid;
+   grid-template-columns: repeat(2, 143px);
+   gap: 0 8px;
+}

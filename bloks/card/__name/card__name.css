@@ -1,0 +1,13 @@
+.card__name{
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 130%;
+   margin: 8px 0 29px;
+}
+
+@media screen and (max-width: 768px) {
+   .card__name{
+      font-size: 12px;
+      margin: 4px 0 16px;
+   }
+}

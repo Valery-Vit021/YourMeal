@@ -1,0 +1,12 @@
+.basket__total{
+   display: flex;
+   justify-content: space-between;
+   margin: 16px 0 0;
+   line-height: 130%;
+}
+
+@media screen and (max-width: 768px) {
+   .basket__total{
+      margin: 13px 0 0;
+   }
+}

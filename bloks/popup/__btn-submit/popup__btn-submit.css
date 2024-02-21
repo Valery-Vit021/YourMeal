@@ -1,0 +1,27 @@
+.popup__btn-submit{
+   width: 276px;
+   background-color: #FF7020;
+   color: white;
+   line-height: 1;
+   height: 40px;
+   border-radius: 12px;
+   border: none; 
+   padding: 12px 0;
+   box-sizing: border-box;
+   grid-area: submit;
+   margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+   .popup__btn-submit{
+      width: 218px;
+      height: 30px;
+      padding: 9px 0;
+   }   
+}
+
+@media screen and (max-width: 320px) {
+   .popup__btn-submit{
+      margin-right: 8px;
+   }
+}

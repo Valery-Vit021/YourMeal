@@ -1,0 +1,20 @@
+.footer__contact{
+   display: grid;
+   grid-template-columns: 204px 164px;
+   gap: 126px;
+}
+
+@media screen and (max-width: 768px) {
+   .footer__contact{
+      grid-template-columns: 153px 123px;
+      gap: 177px;
+   }   
+}
+
+@media screen and (max-width: 320px) {
+   .footer__contact{
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+   }
+}

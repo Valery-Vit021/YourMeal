@@ -1,0 +1,11 @@
+.basket__delivery{
+   display: flex;
+   margin: 8px 0 0;
+   justify-content: flex-start;
+}
+
+@media screen and (max-width: 768px) {
+   .basket__delivery{
+      margin: 17px 0 0;
+   }
+}

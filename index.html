@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>YourMeal</title>
+   <link rel="shortcut icon" href="./images/free-icon-kitchen-utensil-4790616 1.svg">
+   <link rel="stylesheet" href="./vendor/style/normalize.css">
+   <link rel="stylesheet" href="./pages/index.css">
+</head>
+<body class="page">
+   <div class="content">
+      <header class="header">
+          <img class="header__logo" src="./images/logo.svg" alt="YourMeal Логотип">
+          <div class="header__content">
+              <img class="header__img" src="./images/header-pic.png" alt="Бургер">
+              <h1 class="header__title">
+                  Только самые <br><span class="header__title_orange">сочные бургеры!</span> 
+              </h1>
+              <p class="header__text">Бесплатная доставка от <span class="header__text_bold"> 599₽</span></p>
+          </div>
+      </header>
+        
+      <main class="main">
+        <div class="basket">
+         <div class="basket__header">
+          <h2 class="basket__title">Корзина</h2>
+          <div class="basket__check">
+            <p class="basket__check-number">0</p>
+          </div>  
+         </div>
+          <div class="basket__content">
+                <!--<p class="basket__text">Тут пока пусто :(</p> ::before скорее всего надо будет применить-->
+                <div class="product-cards">
+                    <div class="product-card">
+                        <div class="product-card__card">
+                            <img class="product-card__img" src="./images/burger/photo1.png" alt="Супер сырный бургер">
+                            <div class="product-card__info">
+                                <p class="product-card__name">Супер сырный</p>
+                                <p class="product-card__weight">512г</p>
+                                <p class="product-card__price">550₽</p>
+                            </div>
+                        </div>
+                        <div class="button">
+                            <button class="button__control button__reduce" type="button">-</button>
+                            <p class="button__number">90</p>
+                            <button class="button__control button__increase" type="button">+</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="basket__total">
+                <p class="basket__total-text">Итого</p>
+                <p class="basket__total-number">550₽</p>
+              </div>
+              <div class="basket__footer">
+                  <button class="basket__btn-submit" type="submit">Оформить заказ</button>
+                  <div class="basket__delivery">
+                      <img class="basket__delivery-img" src="./images/icon/Delivery.png" alt="Скутер оранжевый">
+                      <p class="basket__delivery-text">Бесплатная доставка</p>
+                  </div>
+                  <button class="basket__btn-close" type="button">Свернуть</button>
+              </div> 
+          </div>
+        </div>
+        <nav class="menu">
+            <ul class="menu__list">
+               <a class="menu__link" href="#">
+                   <li class="menu__item">
+                       <img class="menu__img" src="./images/icon/burger.png" alt="Бургеры">
+                       Бургеры
+                   </li>
+               </a>
+                <a class="menu__link" href="#">
+                   <li class="menu__item">
+                       <img class="menu__img" src="./images/icon/Snacks.png" alt="Закуски">
+                       Закуски
+                   </li>
+                </a>
+                <a class="menu__link" href="#">
+                   <li class="menu__item">
+                       <img class="menu__img" src="./images/icon/Hot-dogs.png" alt="Хот-доги">
+                       Хот-доги
+                   </li>
+                </a>
+                <a class="menu__link" href="#">
+                   <li class="menu__item">
+                       <img class="menu__img" src="./images/icon/Combo.png" alt="Комбо">
+                       Комбо
+                   </li>
+                </a>
+                <a class="menu__link" href="#">
+                   <li class="menu__item">
+                       <img class="menu__img" src="./images/icon/Shawarma.png" alt="Шаурма">
+                       Шаурма
+                   </li>
+                </a>
+                <a class="menu__link" href="#">
+                   <li class="menu__item">
+                       <img class="menu__img" src="./images/icon/Pizza.png" alt="Пицца">
+                       Пицца
+                   </li>
+                </a>
+                <a class="menu__link" href="#">
+                   <li class="menu__item">
+                       <img class="menu__img" src="./images/icon/Wok.png" alt="Вок">
+                       Вок
+                   </li>
+                </a>
+                <a class="menu__link" href="#">
+                   <li class="menu__item">
+                       <img class="menu__img" src="./images/icon/Dessert.png" alt="Десерты">
+                       Десерты
+                   </li>
+                </a>
+                <a class="menu__link" href="#">
+                   <li class="menu__item">
+                       <img class="menu__img" src="./images/icon/Sauces.png" alt="Соусы">
+                       Соусы
+                   </li>
+                </a>
+                
+            </ul>
+        </nav>
+        <div class="btn-basket">
+            <p class="btn-basket__title">Корзина</p>
+            <div class="btn-basket__check">
+                <p class="btn-basket__check-number">0</p>
+            </div>
+        </div>
+          <h2 class="main__title">Бургеры</h2>
+          <div class="conteiner">
+              <div class="card-blank">
+                  <div class="card">
+                      <img class="card__img" src="./images/burger/photo.png" alt="">
+                      <div class="card__info">
+                          <p class="card__price">689₽</p>
+                          <p class="card__name">Мясная бомба</p>
+                          <p class="card__weight">520г</p>
+                          <button class="card__btn-submit">Добавить</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </main>
+      <footer class="footer">
+          <div class="footer__content">
+            <img class="footer__logo" src="./images/footer-logo.svg" alt="Логотип YourMeal">
+           <div class="footer__contact">
+            <div class="footer__call">
+               <p class="footer__title">
+                  Номер для заказа
+               </p>
+               <div class="footer__phone">
+                  <img class="footer__phone-img" src="./images/icon/Call.png" alt="Телефонная трубка">
+                  <p class="footer__number">
+                     +7(930)833-38-11
+                  </p>
+               </div>
+            </div>
+            <div class="footer__social">
+               <p class="footer__title">
+                  Мы в соцсетях
+               </p>
+               <a class="footer__link">
+                    <img class="footer__link-img" src="./images/entypo-social_vk-with-circle.svg" alt="Значек ВКонтакте">
+                </a>
+               <a class="footer__link">
+                    <img class="footer__link-img" src="./images/bi_telegram.svg" alt="Значек телеграмм">
+                </a>
+            </div>
+          </div> 
+          </div>
+          <div class="footer__conteiner">
+            <p class="footer__copyright">© YouMeal, 2022</p>
+            <p class="footer__autor">Design: Anastasia Ilina</p>
+            <p class="footer__autor">Develop: Valeria Lukashevich</p>
+            </div>  
+        </footer>
+  </div>
+  <div class="popup" id="about-product">
+    <div class="popup__body">
+        <button class="popup__btn-close"></button>
+        <h2 class="popup__title">
+            Мясная бомба
+        </h2>
+        <div class="popup__content">
+            <img class="popup__img" src="./images/burger/photo.png" alt="#">
+            <p class="popup__text">
+                Супер мясное наслаждение! Большая рубленая котлета из свежего говяжего 
+                мяса покорит вас своей сочностью, а хрустящие листья салата добавят свежести.
+            </p>
+            <ul class="popup__components">
+                <h3 class="popup__components-title">
+                    Состав:
+                </h3>
+                <li class="popup__components-item">
+                    Пшеничная булочка
+                </li>
+                <li class="popup__components-item">
+                    Котлета из говядины
+                </li>
+                <li class="popup__components-item">
+                    Красный лук
+                </li>
+            </ul>
+            <p class="popup__weigth">520г, ккал 430</p>
+            <button class="popup__btn-submit">Добавить</button>
+            <div class="button popup__button">
+                <button class="button__control button__reduce" type="button">-</button>
+                <p class="button__number">90</p>
+                <button class="button__control button__increase" type="button">+</button>
+            </div>
+            <p class="popup__price">689₽</p>
+        </div>
+    </div>
+  </div>
+  <div class="popup popup__opened" id="delivery">
+        <div class="popup__body popup__body-delivery">
+            <button class="popup__btn-close"></button>
+            <div class="popup__img-conteiner">
+                <img class="popup__img-delivery" src="./images/donuts.png" alt="#">
+            </div>
+            <div class="popup__content-conteiner">
+                <h2 class="popup__title-delivery">
+                    Доставка
+                </h2>
+                <form class="popup__form" name="delivery" novalidate>
+                    <input class="popup__input popup__input_name-user" id="name-user" type="text" name="name" placeholder="Ваше имя" value="" minlength="2" maxlength="40">
+                    <span class="popup__input-error name-user-error"></span>
+                    <input class="popup__input popup__input_phone" id="phone-user" type="tel" name="phone-user" placeholder="Телефон" value="" minlength="6" maxlength="12">
+                    <span class="popup__input-error phone-user-error"></span>
+                    <ul class="popup__list-input">
+                        <div class="popup__list-input-item">
+                            <input class="popup__input_radio" type="radio" id="self-delivery" name="info-delivery">
+                            <label class="popup__input_radio-label" for="self-delivery">Самовывоз</label>
+                        </div>
+                        <div class="popup__list-input-item">
+                            <input class="popup__input_radio" type="radio" id="delivery-input" name="info-delivery">
+                            <label class="popup__input_radio-label" for="delivery-input">Доставка</label>
+                        </div>
+                    </ul>
+                    <div class="popup__delivery-inputs">
+                        <input class="popup__input popup__input_address" id="address" type="text" name="address" placeholder="Улица, дом, квартира" value="" minlength="10" maxlength="40">
+                        <span class="popup__input-error address-error"></span>
+                        <div class="popup__info-delivery">
+                            <input class="popup__input popup__input_level" id="level" type="number" name="level" placeholder="Этаж" value="" minlength="1" maxlength="3">
+                            <input class="popup__input popup__input_intercom" id="intercom" type="number" name="intercom" placeholder="Домофон" value="" minlength="1" maxlength="4">
+                            <span class="popup__input-error level-error"></span>
+                            <span class="popup__input-error intercom-error"></span>
+                        </div>
+                    </div>                       
+                    <button class="popup__btn-submit popup__btn-form-submit">Оформить</button>
+                </form>
+            </div>
+        </div>
+  </div>
+</body>
+</html>

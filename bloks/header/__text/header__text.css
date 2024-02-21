@@ -1,0 +1,19 @@
+.header__text{
+   color: white;
+   margin: 52px 0 0 0;
+   grid-area: text;
+}
+
+@media screen and (max-width: 768px) {
+   .header__text{
+      font-size: 12px;
+      margin: 26px 0 0 0;
+   }   
+}
+
+@media screen and (max-width: 320px) {
+   .header__text{
+      margin: 16px 0 0 0;
+      text-align: center;
+   }
+}

@@ -1,0 +1,7 @@
+.product-card__card{
+   max-width: 100%;
+   display: flex;
+
+   font-size: 12px;
+   line-height: 16px;
+}
