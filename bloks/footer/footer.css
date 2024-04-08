@@ -1,11 +1,10 @@
 .footer{
-   max-width: 100%;
-   margin: 100px 0 0;
+   max-width: 1440px;
+   margin: 100px auto 0;
    display: flex;
    flex-direction: column;
    padding: 51px 75px 40px;
    box-sizing: border-box;
-   background-color: white;
 }
 
 @media screen and (max-width: 1024px) {
@@ -21,7 +20,7 @@
    }   
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
    .footer{
       padding: 24px 10px 26px;
    }

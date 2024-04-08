@@ -4,7 +4,7 @@
    align-items: center;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 425px){
    .popup__input_radio-label{
       line-height: 14px;
       font-size: 10px;

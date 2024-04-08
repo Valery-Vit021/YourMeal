@@ -3,7 +3,7 @@
    width: 100%;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 425px){
    .popup__btn-form-submit{
       max-width: 300px;
       margin: 0;

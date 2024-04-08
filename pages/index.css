@@ -13,6 +13,7 @@
 @import url(../bloks/menu/__link/menu__link.css);
 @import url(../bloks/menu/__list/menu__list.css);
 @import url(../bloks/menu/__item/menu__item.css);
+@import url(../bloks/menu/__item/_active/menu__item_active.css);
 @import url(../bloks/menu/__img/menu__img.css);
 @import url(../bloks/basket/basket.css);
 @import url(../bloks/basket/__header/basket__header.css);
@@ -51,6 +52,7 @@
 @import url(../bloks/card/__name/card__name.css);
 @import url(../bloks/card/__weight/card__weight.css);
 @import url(../bloks/card/__btn-submit/card__btn-submit.css);
+@import url(../bloks/footer-background/footer-background.css);
 @import url(../bloks/footer/footer.css);
 @import url(../bloks/footer/__content/footer__content.css);
 @import url(../bloks/footer/__logo/footer__logo.css);
